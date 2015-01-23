@@ -8,6 +8,7 @@ import org.jenkinsci.plugins.multiplescms.*;
 /**
  * SubversionのRepository URLとCredentialsIdを出力する。<br>
  * 指定したSCMのインスタンスがSubversionのものではない場合は出力しない。
+ *
  * @param job ジョブ
  * @param scm SCM
  */
@@ -31,3 +32,4 @@ jenkins.model.Jenkins.instance.items.each { job ->
         }
     }
 }
+println();

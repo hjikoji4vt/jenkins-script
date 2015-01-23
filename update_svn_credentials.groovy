@@ -8,6 +8,7 @@ import org.jenkinsci.plugins.multiplescms.*;
 /**
  * SubversionのCredentialsを更新する。<br>
  * 指定したSCMのインスタンスがSubversionでない場合は更新しない。
+ *
  * @param job ジョブ
  * @param scm SCM
  */
@@ -40,3 +41,4 @@ jenkins.model.Jenkins.instance.items.each { job ->
         }
     }
 }
+println();
